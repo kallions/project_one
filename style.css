@@ -1,0 +1,73 @@
+main {
+    margin: 0;
+    padding: 3em 15px;
+    background-color: black;
+}
+
+.sign_in_cont {
+    width: 1200px;
+    display: flex;
+    border: 1px;
+    border-radius: 1em;
+    margin: 18;
+}
+
+.form_cont {
+    width: 600px;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: inherit;
+}
+
+.form_cont::after {
+    background-color: cadetblue;
+    height: 500px;
+}
+
+.form_cont>h3 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+
+}
+
+.form_cont>p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+.form_cont>p::first-letter {
+    text-transform: capitalize;
+}
+
+.form_cont>form {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_cont>form>div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+
+}
+
+.form_cont>form>div>label {
+    padding: 5px 0;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.form_cont>form>div>input {
+    padding: .7em .5em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+}
