@@ -19,10 +19,6 @@ main {
     border-radius: inherit;
 }
 
-.form_cont::after {
-    background-color: cadetblue;
-    height: 500px;
-}
 
 .form_cont>h3 {
     text-align: center;
@@ -70,4 +66,28 @@ main {
     font-size: 1em;
     border-radius: 5px;
     border: 1px solid #d4d4d4;
+}
+
+.remember_details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.remember_details>div {
+    display: flex;
+}
+
+.remember_details>div>p {
+    font-size: 1em;
+
+}
+
+.remember_details>div>p::first-letter {
+    text-transform: capitalize;
+
+}
+
+.remember_details>p::first-letter {
+    text-transform: capitalize;
+
 }

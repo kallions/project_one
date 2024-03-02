@@ -11,11 +11,12 @@
 <body>
     <main>
         <div className="sign_in_cont">
+            <h3>Welcome back</h3>
             <div class="form_cont">
                 <h3>Welcome back</h3>
                 <p>please enter your details</p>
 
-                <form action="">
+                <form class="forms" action="">
                     <div>
                         <label for="email">Email</label>
                         <input type="text" name="email" id="email" />
@@ -28,9 +29,13 @@
 
                     <div>
                         <div class="remember_details">
-                            <input type="radio" name="remember_login" id="remember_login"
-                                placeholder="remeber for 3o days" />
-                            <label for="remember_login">remember for 30 days</label>
+                            <div>
+                                <input type="radio" name="remember_login" id="remember_login"
+                                    placeholder="remeber for 3o days" />
+                                <p>remember for 30 days</p>
+                            </div>
+
+                            <p>forgot password? <a href="#">click here</a></p>
                         </div>
                     </div>
                 </form>
